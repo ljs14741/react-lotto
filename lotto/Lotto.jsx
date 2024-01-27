@@ -57,8 +57,11 @@ const Lotto = () => {
           <Ball key={v} number={v} />
         ))}
       </div>
-      <div style={{ marginBottom: '20px' }}>보너스</div>
-      {bonus && <Ball number={bonus} />}
+      <div style={{ marginBottom: '20px' }}>
+        보너스 번호
+        {bonus && <Ball number={bonus} />}
+      </div>
+      
       {redo && <button style={{ marginTop: '20px', padding: '10px', fontSize: '16px', cursor: 'pointer', background: '#FF6347', color: 'white', border: 'none', borderRadius: '5px' }} onClick={onClickRedo}>한 번 더!</button>}
     </div>
   );

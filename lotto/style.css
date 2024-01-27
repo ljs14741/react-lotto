@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fde9d9; /* 연한 살구색 배경 추가 */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #FF9F80; /* 연한 살구색 헤더 배경 색상 변경 */
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid #FF6F61; /* 헤더 아래 경계선 색상 변경 */
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: 2.5em; /* 헤더의 글꼴 크기 더 키움 */
+    color: #fff; /* 헤더 텍스트 색상 변경 */
+}
+
+#root {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ball {
+    display: inline-block;
+    border: 2px solid #FF9F80;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px; /* 간격 추가 */
+    background-color: #FFB6C1;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #FF9F80; /* 버튼 배경색 변경 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.bottom {
+    margin: 20px;
+    font-family: 'Noto Sans KR', sans-serif; /* 글씨체 변경 */
+    font-size: 16px; /* 글자 크기 변경 */
+    color: #555; /* 글자 색상 변경 */
+}
