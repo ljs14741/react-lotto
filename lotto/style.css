@@ -71,3 +71,12 @@ button {
 .link-icon.twitter { background-image: url(./images/icon-twitter.png); background-repeat: no-repeat; }
 .link-icon.facebook { background-image: url(./images/icon-facebook.png); background-repeat: no-repeat; } 
 .link-icon.kakao { background-image: url(./images/icon-kakao.png); background-repeat: no-repeat; }
+
+.kakao-ad-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 320px;
+    min-height: 60px;
+}
